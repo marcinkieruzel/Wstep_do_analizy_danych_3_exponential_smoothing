@@ -30,4 +30,4 @@ mape = ((test - prognoza) / test).abs().mean() * 100
 
 - Holta też licz przez `ExponentialSmoothing(..., trend="add")`. Klasa `Holt` w statsmodels 0.15 kończy się błędem, jeśli nie podasz `initialization_method="estimated"`.
 - Wycinanie po latach działa na indeksie dat: `y.loc[:"2023"]`, `y.loc["2024":]`.
-- Potrzebne pakiety: `pip install pandas statsmodels matplotlib jupyterlab`.
+- Pakiety zainstalujesz w głównym folderze repozytorium: `pip install -r requirements.txt`.

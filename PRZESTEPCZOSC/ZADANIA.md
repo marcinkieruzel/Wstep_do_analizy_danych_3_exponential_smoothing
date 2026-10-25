@@ -31,4 +31,4 @@ hw.params  # smoothing_level = α, smoothing_trend = β, smoothing_seasonal = γ
 
 - Holta też licz przez `ExponentialSmoothing(..., trend="add")`. Klasa `Holt` w statsmodels 0.15 kończy się błędem, jeśli nie podasz `initialization_method="estimated"`.
 - Dzień tygodnia z indeksu: `y.index.day_of_week` (0 = poniedziałek).
-- Potrzebne pakiety: `pip install pandas statsmodels matplotlib jupyterlab`.
+- Pakiety zainstalujesz w głównym folderze repozytorium: `pip install -r requirements.txt`.

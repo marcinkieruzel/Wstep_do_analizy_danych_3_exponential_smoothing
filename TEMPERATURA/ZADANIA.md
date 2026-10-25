@@ -29,4 +29,4 @@ mae = (test - prognoza).abs().mean()
 
 - Holta też licz przez `ExponentialSmoothing(..., trend="add")`. Klasa `Holt` w statsmodels 0.15 kończy się błędem, jeśli nie podasz `initialization_method="estimated"`.
 - Średnie roczne zostaw z indeksem dat, który daje `resample`. Jeśli zamienisz go na same numery lat, `forecast()` nie zadziała.
-- Potrzebne pakiety: `pip install pandas statsmodels matplotlib jupyterlab`.
+- Pakiety zainstalujesz w głównym folderze repozytorium: `pip install -r requirements.txt`.
